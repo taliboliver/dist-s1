@@ -1,5 +1,4 @@
 # Use Miniforge with CUDA support
-# line for testing
 FROM rapidsai/miniforge-cuda:latest
 
 # Set environment variables for CUDA (optional, but helps with compatibility)
