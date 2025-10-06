@@ -600,6 +600,13 @@
 </thead>
 <tbody>
 <tr>
+<td><code>check_input_paths</code></td>
+<td><code>bool</code></td>
+<td>True</td>
+<td>No</td>
+<td>Whether to check if the input paths exist. If True, the input paths are checked. Used during testing.</td>
+</tr>
+<tr>
 <td><code>pre_rtc_copol</code></td>
 <td><code>list[pathlib.Path | str]</code></td>
 <td>No default</td>
@@ -668,13 +675,6 @@
 <td>True</td>
 <td>No</td>
 <td>Whether to apply water mask to the input data. If True, water mask is applied to the input data. If no water mask path is provided, the tiles to generate the water mask over MGRS area are localized and formatted for use.</td>
-</tr>
-<tr>
-<td><code>check_input_paths</code></td>
-<td><code>bool</code></td>
-<td>True</td>
-<td>No</td>
-<td>Whether to check if the input paths exist. If True, the input paths are checked. Used during testing.</td>
 </tr>
 <tr>
 <td><code>product_dst_dir</code></td>
